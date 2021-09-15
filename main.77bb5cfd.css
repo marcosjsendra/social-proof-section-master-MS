@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "Spartan", sans-serif;
-  background: url("/bg-pattern-top-desktop.eabc510c.svg") top left no-repeat, url("/bg-pattern-bottom-desktop.f82eed7d.svg") bottom right no-repeat, white;
+  background: url("./bg-pattern-top-desktop.eabc510c.svg") top left no-repeat, url("./bg-pattern-bottom-desktop.f82eed7d.svg") bottom right no-repeat, white;
 }
 
 .sp {
