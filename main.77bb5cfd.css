@@ -1,0 +1,222 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  background: url("/bg-pattern-top-desktop.eabc510c.svg") top left no-repeat, url("/bg-pattern-bottom-desktop.f82eed7d.svg") bottom right no-repeat, white;
+}
+
+.sp {
+  width: 111rem;
+  margin: 22rem auto;
+  display: grid;
+  row-gap: 7.5rem;
+  grid-template-columns: 46rem 1fr;
+  grid-template-rows: auto 26.5rem;
+  column-gap: 11.5rem;
+}
+@media only screen and (max-width: 68.75rem) {
+  .sp {
+    width: 90%;
+    margin: 10rem auto;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    row-gap: 3rem;
+  }
+}
+
+.sp_intro-tittle {
+  font-size: 4.6rem;
+  font-weight: 700;
+  color: #502050;
+  line-height: 4.8rem;
+  margin-bottom: 1.5rem;
+}
+.sp_intro-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #937b92;
+  line-height: 2.5rem;
+}
+
+@media only screen and (max-width: 68.75rem) {
+  .sp_intro {
+    justify-self: center;
+    width: 80%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  .sp_intro {
+    width: 34.5rem;
+  }
+  .sp_intro-tittle {
+    text-align: center;
+    width: 25rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: auto;
+    margin-bottom: 2.3rem;
+  }
+}
+.sp_ratios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sp_ratios :first-child {
+  align-self: flex-start;
+}
+.sp_ratios :last-child {
+  align-self: flex-end;
+}
+.sp_ratios-card {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #502050;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 2rem 3rem;
+  border-radius: 0.8rem;
+  background-color: #f7f2f7;
+  width: 44.5rem;
+}
+.sp_ratios-stars {
+  margin-right: 3rem;
+}
+.sp_ratios-star {
+  padding-right: 0.5rem;
+}
+
+@media only screen and (max-width: 68.75rem) {
+  .sp_ratios-card {
+    width: 42rem;
+  }
+  .sp_ratios-stars {
+    margin-right: 1.5rem;
+  }
+  .sp_ratios :first-child {
+    justify-self: start;
+  }
+  .sp_ratios :last-child {
+    justify-self: end;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  .sp_ratios {
+    width: 33rem;
+    justify-self: center;
+  }
+  .sp_ratios :first-child {
+    align-self: center;
+  }
+  .sp_ratios :last-child {
+    align-self: center;
+  }
+  .sp_ratios-card {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 1.25rem 2rem;
+  }
+  .sp_ratios-stars {
+    margin-right: 0;
+    margin-bottom: 0.75rem;
+  }
+}
+.sp_card {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sp_card :first-child {
+  align-self: flex-start;
+}
+.sp_card :last-child {
+  align-self: flex-end;
+}
+.sp_card-item {
+  width: 35rem;
+  padding: 4rem 3.25rem;
+  background-color: #502050;
+  border-radius: 1rem;
+}
+.sp_card-buyer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.8rem;
+}
+.sp_card-img {
+  margin-right: 2rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.sp_card-name {
+  font-size: 1.35rem;
+  font-size: 700;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+.sp_card-ver {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ee68a4;
+  line-height: auto;
+}
+.sp_card-txt {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  line-height: 2rem;
+}
+
+@media only screen and (max-width: 68.75rem) {
+  .sp_card {
+    justify-self: center;
+    flex-direction: column;
+  }
+  .sp_card :first-child {
+    align-self: center;
+  }
+  .sp_card :last-child {
+    align-self: center;
+  }
+  .sp_card-item {
+    width: 80%;
+  }
+  .sp_card-item:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  .sp_card-item {
+    width: 33rem;
+  }
+}
+.github {
+  padding: 2rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.github .attribution {
+  margin-right: 1rem;
+}
+.github .ms_logo {
+  width: 2rem;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
